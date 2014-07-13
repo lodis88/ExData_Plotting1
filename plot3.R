@@ -1,4 +1,4 @@
-## I am put de file in this directory
+## I am put the file in this directory
 setwd("C:/Users/Marcos/Desktop/dat science")
 
 ##read in the data, all variables as characters.
