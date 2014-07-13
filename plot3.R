@@ -27,7 +27,7 @@ all_var$DateTime = strptime(all_var$DateTime, format = "%d/%m/%Y %H:%M:%S")
 ##plot
 par(mfrow = c(1,1)) 
 
-plot(all_var$DateTime, power$Sub_metering_1, type = "n", ylab = "Energy sub metering", xlab = "")
+plot(all_var$DateTime, all_var$Sub_metering_1, type = "n", ylab = "Energy sub metering", xlab = "")
 
 ## put the lines
 lines(all_var$DateTime, all_var$Sub_metering_1)
